@@ -1,3 +1,8 @@
+  
+variable "name" {}
+
+variable "account_id" {}
+
 data "aws_elb_service_account" "main" {}
 
 data "aws_iam_policy_document" "bucket_policy" {
